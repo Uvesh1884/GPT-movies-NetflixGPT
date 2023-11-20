@@ -13,7 +13,7 @@ const usePopulerMovies = ()=>{
         const data = await fetch(POPULER_API,API_OPTIONS);
     
         const json = await data.json();
-        console.log(json)
+        // console.log(json)
 
        dispatch(addPopulerMovies(json.results));
 

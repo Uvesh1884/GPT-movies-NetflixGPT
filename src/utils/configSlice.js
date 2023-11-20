@@ -5,7 +5,7 @@ const configSlice = createSlice({
 
     name : "config",
     initialState: {
-        LenguageSelect : "English",
+        LenguageSelect: "en",
     },
     reducers : {
         changeLanguage : (state,action)=>{

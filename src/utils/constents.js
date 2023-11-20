@@ -33,3 +33,6 @@ export const API_OPTIONS =  {
       language : "Udu"
     }
   ]
+
+
+  export const OPENAI_KEY = "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";
